@@ -4,7 +4,7 @@ function add_to(t) {
 
 function measureTime() {
   $.ajax({
-    url: "http://baidu.com",
+    url: "https://baidu.com",
     method: 'GET',
     cache: false,
     beforeSend: function (request, settings) {
